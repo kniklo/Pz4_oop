@@ -6,6 +6,8 @@ class D2 :
 private:
 	string _atr7;	
 	float _atr8;
+	virtual void m1() override; //т.к приватая связь с B
+	virtual void m2() override;
 public:
 	//constructors
 	D2();
@@ -22,8 +24,7 @@ public:
 	friend ostream& operator<< (ostream& out, const D2& dot);
 	friend istream& operator>> (istream& in, D2& dot);
 	//methods
-	virtual void m1() override;
-	virtual void m2() override;
+	
 	virtual void m6();
 	void m7();
 };

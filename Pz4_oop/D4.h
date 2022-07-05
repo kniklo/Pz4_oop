@@ -8,6 +8,9 @@ class D4 :
 private:
 	int _atr11;
 	int _atr12;
+	virtual void m1() override; //т.к приватная связь с D1
+	virtual void m2() override; //
+	virtual void m4() override; //
 public:
 	//constructors
 	D4();
@@ -24,10 +27,8 @@ public:
 	friend ostream& operator<< (ostream& out, const D4& dot);
 	friend istream& operator>> (istream& in, D4& dot);
 	//methods
-	virtual void m1() override;
-	virtual void m2() override;
-	virtual void m4() override;
-	virtual void m6() override;
+	
+	virtual void m6() override; //т.к публич. с D2
 	void m9();
 };
 
