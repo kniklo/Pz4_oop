@@ -9,7 +9,7 @@ private:
 public:
 	//constructors
 	D1();
-	D1(int atr1, int atr2, float atr3, string atr4, string _atr5, float _atr6);
+	D1(int atr1, int atr2, float atr3, string atr4, string atr5, float atr6);
 	D1(const D1& from_D1);
 	~D1();
 	//getters		
