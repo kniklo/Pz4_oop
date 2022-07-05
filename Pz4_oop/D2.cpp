@@ -31,14 +31,7 @@ istream& operator>> (istream& in, D2& d2)
 	cin >> d2._atr8;
  }
 //methods
-void D2::m1()
-{
-	cout << "this is override function m1 from class D2\n";
-}
-void D2::m2()
-{
-	cout << "this is override function m2 from class D2\n";
-}
+
 void D2::m6()
 {
 	cout << "this is function m6 from class D2\n";
@@ -46,4 +39,14 @@ void D2::m6()
 void D2::m7()
 {
 	cout << "this is NOT VIRTUAL function m7 from class D2\n";
+}
+
+///на всякий случай написала но они ж приватные
+void D2::m1()
+{
+	cout << "this is override function m1 from class D2\n";
+}
+void D2::m2()
+{
+	cout << "this is override function m2 from class D2\n";
 }

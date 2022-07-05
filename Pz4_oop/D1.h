@@ -19,8 +19,8 @@ public:
 	void setatr5(string atr5);
 	void setatr6(float atr6);
 	// in out
-	friend ostream& operator<< (ostream& out, const D1& dot);
-	friend istream& operator>> (istream& in, D1& dot);
+	friend ostream& operator<< (ostream& out, const D1& d1);
+	friend istream& operator>> (istream& in, D1& d1);
 	//methods
 	virtual void m1() override;
 	virtual void m2() override;

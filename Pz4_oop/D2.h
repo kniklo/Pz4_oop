@@ -21,8 +21,8 @@ public:
 	void setatr7(string atr7);
 	void setatr8(float atr8);
 	// in out
-	friend ostream& operator<< (ostream& out, const D2& dot);
-	friend istream& operator>> (istream& in, D2& dot);
+	friend ostream& operator<< (ostream& out, const D2& d2);
+	friend istream& operator>> (istream& in, D2& d2);
 	//methods
 	
 	virtual void m6();
