@@ -24,8 +24,8 @@ public:
 	void setatr11(int atr11);
 	void setatr12(int atr12);
 	// in out
-	friend ostream& operator<< (ostream& out, const D4& dot);
-	friend istream& operator>> (istream& in, D4& dot);
+	friend ostream& operator<< (ostream& out, const D4& d4);
+	friend istream& operator>> (istream& in, D4& dod4t);
 	//methods
 	
 	virtual void m6() override; //т.к публич. с D2

@@ -24,8 +24,8 @@ public:
 	void setatr9(int atr9);
 	void setatr10(int atr10);
 	// in out
-	friend ostream& operator<< (ostream& out, const D3& dot);
-	friend istream& operator>> (istream& in, D3& dot);
+	friend ostream& operator<< (ostream& out, const D3& d3);
+	friend istream& operator>> (istream& in, D3& d3);
 	//methods
 	
 	
