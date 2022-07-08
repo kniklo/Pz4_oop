@@ -33,6 +33,7 @@ void B::setatr4(string atr4) { _atr4 = atr4; }
 ostream& operator<< (ostream& out, const B& base){
 	out << "atribut1 from B: " << base._atr1 << " atribut2 from B: " << base._atr2 << " atribut3 from B: " 
 		<< base._atr3 << " atribut4 from B: " << base._atr4 << "\n";
+	return out;
 }
 istream& operator>> (istream& in, B& base) {
 	cout << "Enter atribut1 for B:";

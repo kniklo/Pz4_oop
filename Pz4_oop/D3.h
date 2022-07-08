@@ -27,8 +27,7 @@ public:
 	friend ostream& operator<< (ostream& out, const D3& d3);
 	friend istream& operator>> (istream& in, D3& d3);
 	//methods
-	
-	
+		
 	virtual void m6() override; //т.к публичная связь с D2
 	void m8();
 };

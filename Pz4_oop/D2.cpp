@@ -22,6 +22,7 @@ void D2:: setatr8(float atr8) { _atr8 = atr8; }
 ostream& operator<< (ostream& out, const D2& d2)
 {
 	out << "atribut7 from D2: " << d2._atr7 << " artibut8 from D1: " << d2._atr8 << "\n";
+	return out;
  }
 istream& operator>> (istream& in, D2& d2)
 {
@@ -29,6 +30,7 @@ istream& operator>> (istream& in, D2& d2)
 	cin >> d2._atr7;
 	cout << "Entre float atribut8 for D2:";
 	cin >> d2._atr8;
+	return in;
  }
 //methods
 

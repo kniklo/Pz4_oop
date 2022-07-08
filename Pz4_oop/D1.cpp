@@ -21,12 +21,14 @@ void D1::setatr6(float atr6) { _atr6 = atr6; }
 // in out
 ostream& operator<< (ostream& out, const D1& d1) {
 	out << "atribut5 from D1: " << d1._atr5 << " artibut6 from D1: " << d1._atr6 << "\n";
+	return out;
  }
 istream& operator>> (istream& in, D1& d1) {
 	cout << "Enter  string atribut5 for D1:";
 	cin >> d1._atr5;
 	cout << "Entre float atribut6 for D1:";
 	cin >> d1._atr6;
+	return in;
  }
 //methods
 void D1::m1()
