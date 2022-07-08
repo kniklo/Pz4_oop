@@ -2,6 +2,7 @@
 //constructors
 D2::D2() : B(), _atr7(""), _atr8(0.0)
 {
+	cout << " default constructor D2" << endl;
 }
 D2::D2(int atr1, int atr2, float atr3, string atr4, string atr7, float atr8) : B(atr1, atr2, atr3, atr4), _atr7(atr7), _atr8(atr8)
 {

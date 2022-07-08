@@ -5,18 +5,21 @@ B::B()
 	_atr1 = _atr2  = 0;
 	_atr3 = 0.0;
 	_atr4 = " ";
+	cout << " default constructor B" << endl;
 }
 B::B(int atr1, int atr2, float atr3, string atr4) {
 	_atr1 = atr1;
 	_atr2 = atr2;
 	_atr3 = atr3;
 	_atr4 = atr4;
+	cout << " parametric constructor B" << endl;
 }
 B::B(const B& from_B) {
 	_atr1 = from_B._atr1;
 	_atr2 = from_B._atr2;
 	_atr3 = from_B._atr3;
 	_atr4 = from_B._atr4;
+	cout << " copy constructor B" << endl;
 }
 B::~B(){}
 //getters

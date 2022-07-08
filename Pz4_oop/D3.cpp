@@ -1,7 +1,8 @@
 #include "D3.h"
 //constructors
-D3::D3() : D1(), D2(), _atr9(0), _atr10(0)
+D3::D3() : D1(), D2(), _atr9(0), _atr10(0) 
 {
+	cout << " default constructor D3" << endl;
 }
 D3::D3(int atr1, int atr2, float atr3, string atr4, string atr5, float atr6, string atr7, float atr8, int atr9, int atr10) :
 	D1(atr1, atr2, atr3, atr4, atr5, atr6), D2(atr1, atr2, atr3, atr4, atr7, atr8),
